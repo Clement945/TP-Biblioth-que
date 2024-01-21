@@ -1,0 +1,141 @@
+bibliotheque{
+    background-color: rgb(30, 121, 13);
+    font-family: Arial;
+    margin: 0;  
+}
+
+auteur{
+    background-color: yellow;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    display: block;
+    width: 550px;
+}
+
+nom{
+    display :block;
+}
+prenom{
+    display: block;
+}
+
+naissance{
+    display: block;
+}
+
+disparition{
+    display: block;
+}
+
+nationalite{
+    display: block;
+}
+
+bibliotheque personne auteur titre{
+    font-size: 30px;
+}
+
+bibliotheque personne titre{
+    font-size: 22px;
+}
+
+bibliotheque personne datedeparution{
+    font-size: 18px;
+
+}
+
+bibliothque personne genre, collection, edition{
+    font-size: 15.9px;
+}
+
+bibliotheque personne commentaire{
+    font-size: 14px;
+}
+
+
+
+livre[type="science-fiction"]{
+    background-color: #74D0F1;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 140px;
+}
+
+livre[type="roman"]{
+    background-color: #778899;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+
+livre titre, datedeparution, genre, collection, edition, commentaire{
+    display: block;
+    line-height: 30px;
+}
+
+commentaire{
+    line-height: 20px;
+}
+
+
+livre{
+    display: block;
+    width: 300px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+
+titre[nom="titre1"]
+{
+    background-color: yellow;
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/*
+auteur[b="c"]{
+    margin-top: 10px;
+    margin-left: 650px;
+} */
+
+livre[type="science-fiction2"]{
+    background-color: #74D0F1;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 770px;
+}
+
+personne[nom="personne2"]{
+    display: block;
+    margin-left: 500px;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 723px;
+    left: 100px;
+    
+
+}
+
+livre[lire="livre1"]{
+    margin-top: 50px;
+}
+
+livre[lire="livre1"]{
+    background-color: #778899;
+    margin-top: 58px;
+    margin-bottom: 30px;
+    margin-left: 130px;
+}
+
+livre[lire="livre2"]{
+    background-color: #74D0F1;
+    margin-top: 87px;
+    margin-bottom: 0px;
+    margin-left: 130px;
+}
+
+

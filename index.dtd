@@ -1,0 +1,30 @@
+<!ELEMENT bibliotheque (titre,personne)>
+<!ATTLIST titre nom(titre1) #REQUIRED>
+<!ELEMENT personne (auteur)>
+
+
+<!ATTLIST personne nom(personne2) #REQUIRED>
+
+<!ELEMENT auteur (nom, prenom,naissance,disparition,nationalite, livre)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT naissance (#PCDATA)>
+<!ELEMENT disparition (#PCDATA)>
+<!ELEMENT nationalite (#PCDATA)>
+<!ELEMENT livre (#PCDATA)>
+<!ELEMENT livre (titre,datedeparution,genre,collection,edition,commentaire)>
+
+<!ATTLIST livre type(science-fiction|roman) #REQUIRED>
+
+<!ATTLIST livre lire(livre1|livre2) #REQUIRED>
+
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT datedeparution (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT collection (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT commentaire (#PCDATA)>
+
+
+
+

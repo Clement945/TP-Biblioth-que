@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="./style/style.css" type="text/css"?>
+<!DOCTYPE bibliotheque SYSTEM "index.dtd"> 
+
+<bibliotheque>
+
+    <titre nom="titre1">Bibliothèque</titre>
+
+    <personne>
+    
+        <auteur>
+            <!--<titre>Bibliothèque:</titre>-->
+            <nom> Nom : BARJAVEL </nom>
+            <prenom> Prénom: René </prenom>
+            <naissance>Naissance: 24 janvier 1911 </naissance>
+            <disparition> Disparition: 24 novembre 1985</disparition>
+            <nationalite> Nationalité: Française  </nationalite>
+        </auteur>
+
+            
+
+                
+
+
+            <livre type="science-fiction">
+                <titre> Titre: La Nuit des temps</titre>
+                <datedeparution> Date de parution: 1968   </datedeparution>
+                <genre>Genre:  Science-fiction, Roman </genre>
+                <collection>Collection:  Presses de la Cité, Presses Cameron, Pocket, Éditions des Saints Pères   </collection>
+                <edition>Edition: Presses de la Cité </edition>
+                <commentaire>Commentaire: Un auteur contemporain qui parle de Science-fiction et de Roman de manière abordable pour les lecteurs non initié. Cela était novateur pour l'époque.</commentaire>
+        
+            </livre>
+            <livre type="roman">
+                <titre >Titre: Ravage</titre>
+                <datedeparution>Date de parution: 1943   </datedeparution>
+                <genre>Genre: Roman, Anticipation   </genre>
+                <collection>Collection:  La Porte ouverte, Denoël, Folio   </collection>
+                <edition>Edition: Denoël   </edition>
+                <commentaire>Commentaire: Un auteur contemporain qui parle de Roman et Anticipation (œuvres dont l'action se déroule dans le futur, proche ou lointain) accessible pour tout type de lecteurs. </commentaire>
+
+            </livre>
+            <!--<livre type="science-fiction">
+                <titre> Titre: Une rose au paradis </titre>
+                <datedeparution> Date de parution: 1981  </datedeparution>
+                <genre>Genre: Science-fiction   </genre>
+                <collection>Collection:  Romans,  Pocket   </collection>
+                <edition>Edition: France loisirs   </edition>
+                <commentaire>Commentaire: Un auteur contemporain qui traite de Science-fiction dans ce livre. </commentaire>
+
+            </livre>-->
+
+    </personne>
+
+
+    <personne nom="personne2">
+        <auteur>
+            <nom> Nom: SCHMITT  </nom>
+            <prenom> Prénom: Éric-Emmanuel </prenom>
+            <naissance>Naissance: 28 mars 1960 </naissance>
+            <nationalite> Nationalité: Française  </nationalite>
+        </auteur>
+        <livre lire="livre1">
+            <titre>Titre:Paradis perdus Tome:1</titre>
+            <datedeparution> Date de parution: 3 Février 2021  </datedeparution>
+            <genre>Genre: Roman   </genre>
+            <collection>Collection:  Roman Français   </collection>
+            <edition>Edition: Albin Michel   </edition>
+            <commentaire>Commentaire: Une grande épopée moderne où l'ennui n'a pas sa place, dévorée de page en page. J'aime les pavés de ce grand auteur. Son écriture est explorée et affinée à la perfection. </commentaire>
+
+        </livre>
+        <livre lire="livre2">
+            <titre>Titre:La Secte des égoïstes  </titre>
+            <datedeparution> Date de parution: 1er Juillet 1994  </datedeparution>
+            <genre>Genre: Roman   </genre>
+            <collection>Collection:  Roman Français   </collection>
+            <edition>Edition: Albin Michel   </edition>
+            <commentaire>Commentaire: Un petit livre vraiment singulier, passionnant dans un style qui confine à l'érudition. Un jeu de pistes philosophique ou un jeu de dupes littéraire., vous jugerez vous-même à la lecture de ce récit. Un livre de Schimtt encore très bien tourné.. </commentaire>
+        </livre>
+
+
+    </personne>
+
+
+</bibliotheque>
